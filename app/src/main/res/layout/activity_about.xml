@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:id="@+id/hangout_poster1"
+                android:layout_width="250dp"
+                android:layout_height="225dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/about1"
+                />
+
+            <TextView
+                android:id="@+id/hangout_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/hangout_poster1"
+                android:text="Address: G/F JPM Building, San Vicente, Maharlika Highway Gapan City, Nueva Ecija"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                />
+
+            <View
+                android:id="@+id/line1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#FFFFFF"
+                android:layout_below="@+id/hangout_poster1"
+                />
+
+            <ImageView
+                android:layout_below="@+id/line1"
+                android:id="@+id/hangout_poster2"
+                android:layout_width="250dp"
+                android:layout_height="225dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/about2"
+                />
+
+            <TextView
+                android:layout_below="@+id/line1"
+                android:id="@+id/hangout_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/hangout_poster2"
+                android:text="Open: Monday - Saturday 7:00AM - 8:00PM"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                />
+
+            <View
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#FFFFFF"
+                android:layout_below="@+id/hangout_poster2"
+                />
+
+            <ImageView
+                android:layout_below="@+id/line2"
+                android:id="@+id/hangout_poster3"
+                android:layout_width="250dp"
+                android:layout_height="225dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/about3"
+                />
+
+            <TextView
+                android:layout_below="@+id/line2"
+                android:id="@+id/hangout_name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/hangout_poster3"
+                android:text="Email Address: aiegapan@gmail.com"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                />
+
+            <View
+                android:id="@+id/line3"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#FFFFFF"
+                android:layout_below="@+id/hangout_poster3"
+                />
+
+            <ImageView
+                android:layout_below="@+id/line3"
+                android:id="@+id/hangout_poster4"
+                android:layout_width="250dp"
+                android:layout_height="225dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/about4"
+                />
+
+            <TextView
+                android:layout_below="@+id/line3"
+                android:id="@+id/hangout_name4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/hangout_poster4"
+                android:text="Mobile Number: +639062523182 / +639334990744"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                />
+
+            <View
+                android:id="@+id/line4"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#FFFFFF"
+                android:layout_below="@+id/hangout_poster4"
+                />
+
+            <ImageView
+                android:layout_below="@+id/line4"
+                android:id="@+id/hangout_poster5"
+                android:layout_width="250dp"
+                android:layout_height="225dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/about5"
+                />
+
+            <TextView
+                android:layout_below="@+id/line4"
+                android:id="@+id/hangout_name5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/hangout_poster5"
+                android:text="Landline: +63449589294"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                />
+
+            <View
+                android:id="@+id/line5"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#FFFFFF"
+                android:layout_below="@+id/hangout_poster5"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

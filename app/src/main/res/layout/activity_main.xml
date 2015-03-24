@@ -1,0 +1,359 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:id="@+id/food_poster1"
+                android:layout_width="175dp"
+                android:layout_height="150dp"
+                android:scaleType="fitStart"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/beefbrisket"
+                />
+
+            <Button
+                android:id="@+id/buttonbeefbrisket"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Beef Brisket"
+                android:layout_toRightOf="@+id/food_poster1"
+                android:background="#FFA500"
+                android:textColor="#FFFFFF"
+                android:gravity="center_vertical"
+                android:onClick="showSubmenu"
+                />
+
+            <TextView
+                android:id="@+id/food_price1"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_toRightOf="@+id/buttonbeefbrisket"
+                android:text=" Php55"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                />
+
+            <View
+                android:id="@+id/line1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#FFFFFF"
+                android:layout_below="@+id/food_poster1"
+                />
+
+            <ImageView
+                android:layout_below="@+id/line1"
+                android:id="@+id/food_poster2"
+                android:layout_width="175dp"
+                android:layout_height="150dp"
+                android:scaleType="fitStart"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/chickenteriyaki"
+                />
+
+            <Button
+                android:layout_below="@+id/line1"
+                android:id="@+id/buttonchickenteriyaki"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Chicken Teriyaki"
+                android:layout_toRightOf="@+id/food_poster2"
+                android:background="#FFA500"
+                android:textColor="#FFFFFF"
+                android:onClick="showSubmenu"
+                android:gravity="center_vertical"
+                />
+
+            <TextView
+                android:layout_below="@+id/line1"
+                android:id="@+id/food_price2"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_toRightOf="@+id/buttonchickenteriyaki"
+                android:text=" Php49"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                />
+
+            <View
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#FFFFFF"
+                android:layout_below="@+id/food_poster2"
+                />
+
+            <ImageView
+                android:layout_below="@+id/line2"
+                android:id="@+id/food_poster3"
+                android:layout_width="175dp"
+                android:layout_height="150dp"
+                android:scaleType="fitStart"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/lomi"
+                />
+
+            <Button
+                android:layout_below="@+id/line2"
+                android:id="@+id/buttonlomi"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Lomi"
+                android:layout_toRightOf="@+id/food_poster3"
+                android:background="#FFA500"
+                android:textColor="#FFFFFF"
+                android:onClick="showSubmenu"
+                android:gravity="center_vertical"
+                />
+
+            <TextView
+                android:layout_below="@+id/line2"
+                android:id="@+id/food_price3"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_toRightOf="@+id/buttonlomi"
+                android:text=" Php55"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                />
+
+            <View
+                android:id="@+id/line3"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#FFFFFF"
+                android:layout_below="@+id/food_poster3"
+                />
+
+            <ImageView
+                android:layout_below="@+id/line3"
+                android:id="@+id/food_poster4"
+                android:layout_width="175dp"
+                android:layout_height="150dp"
+                android:scaleType="fitStart"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/nachos"
+                />
+
+            <Button
+                android:layout_below="@+id/line3"
+                android:id="@+id/buttonnachos"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Nachos"
+                android:layout_toRightOf="@+id/food_poster4"
+                android:background="#FFA500"
+                android:textColor="#FFFFFF"
+                android:onClick="showSubmenu"
+                android:gravity="center_vertical"
+                />
+
+            <TextView
+                android:layout_below="@+id/line3"
+                android:id="@+id/food_price4"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_toRightOf="@+id/buttonnachos"
+                android:text=" Php69"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                />
+
+            <View
+                android:id="@+id/line4"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#FFFFFF"
+                android:layout_below="@+id/food_poster4"
+                />
+
+            <ImageView
+                android:layout_below="@+id/line4"
+                android:id="@+id/food_poster5"
+                android:layout_width="175dp"
+                android:layout_height="150dp"
+                android:scaleType="fitStart"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/potatocasserole"
+                />
+
+            <Button
+                android:layout_below="@+id/line4"
+                android:id="@+id/buttonpotatocasserole"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Potato Casserole"
+                android:layout_toRightOf="@+id/food_poster5"
+                android:background="#FFA500"
+                android:textColor="#FFFFFF"
+                android:onClick="showSubmenu"
+                android:gravity="center_vertical"
+                />
+
+            <TextView
+                android:layout_below="@+id/line4"
+                android:id="@+id/food_price5"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_toRightOf="@+id/buttonpotatocasserole"
+                android:text=" Php65"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                />
+
+            <View
+                android:id="@+id/line5"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#FFFFFF"
+                android:layout_below="@+id/food_poster5"
+                />
+
+            <ImageView
+                android:layout_below="@+id/line5"
+                android:id="@+id/food_poster6"
+                android:layout_width="175dp"
+                android:layout_height="150dp"
+                android:scaleType="fitStart"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/sisig"
+                />
+
+            <Button
+                android:layout_below="@+id/line5"
+                android:id="@+id/buttonsisig"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Sisig"
+                android:layout_toRightOf="@+id/food_poster6"
+                android:background="#FFA500"
+                android:textColor="#FFFFFF"
+                android:onClick="showSubmenu"
+                android:gravity="center_vertical"
+                />
+
+            <TextView
+                android:layout_below="@+id/line5"
+                android:id="@+id/food_price6"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_toRightOf="@+id/buttonsisig"
+                android:text=" Php49"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                />
+
+            <View
+                android:id="@+id/line6"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#FFFFFF"
+                android:layout_below="@+id/food_poster6"
+                />
+
+            <ImageView
+                android:layout_below="@+id/line6"
+                android:id="@+id/food_poster7"
+                android:layout_width="175dp"
+                android:layout_height="150dp"
+                android:scaleType="fitStart"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/spaghetti"
+                />
+
+            <Button
+                android:layout_below="@+id/line6"
+                android:id="@+id/buttonspaghetti"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Spaghetti"
+                android:layout_toRightOf="@+id/food_poster7"
+                android:background="#FFA500"
+                android:textColor="#FFFFFF"
+                android:onClick="showSubmenu"
+                android:gravity="center_vertical"
+                />
+
+            <TextView
+                android:layout_below="@+id/line6"
+                android:id="@+id/food_price7"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_toRightOf="@+id/buttonspaghetti"
+                android:text=" Php69"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                />
+
+            <View
+                android:id="@+id/line7"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#FFFFFF"
+                android:layout_below="@+id/food_poster7"
+                />
+
+            <ImageView
+                android:layout_below="@+id/line7"
+                android:id="@+id/food_poster8"
+                android:layout_width="175dp"
+                android:layout_height="150dp"
+                android:scaleType="fitStart"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/spammusubi"
+                />
+
+            <Button
+                android:layout_below="@+id/line7"
+                android:id="@+id/buttonspammusubi"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Spam Musubi"
+                android:layout_toRightOf="@+id/food_poster8"
+                android:background="#FFA500"
+                android:textColor="#FFFFFF"
+                android:onClick="showSubmenu"
+                android:gravity="center_vertical"
+                />
+
+            <TextView
+                android:layout_below="@+id/line7"
+                android:id="@+id/food_price8"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_toRightOf="@+id/buttonspammusubi"
+                android:text=" Php49"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                />
+
+            <View
+                android:id="@+id/line8"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#FFFFFF"
+                android:layout_below="@+id/food_poster8"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

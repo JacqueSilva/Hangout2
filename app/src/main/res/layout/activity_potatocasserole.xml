@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/food_poster5"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/potatocasserole"
+        />
+
+    <TextView
+        android:id="@+id/food_name5"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_below="@+id/food_poster5"
+        android:text="Potato Casserole Php65"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        />
+
+    <TextView
+        android:id="@+id/food_price5"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@+id/food_name5"
+        android:text="Pan fried potatoes and sliced bell peppers with tasty scrambled eggs"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        />
+            </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

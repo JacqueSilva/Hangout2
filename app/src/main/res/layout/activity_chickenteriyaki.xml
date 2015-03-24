@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/food_poster2"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/chickenteriyaki"
+        />
+
+    <TextView
+        android:id="@+id/food_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_below="@+id/food_poster2"
+        android:text="Chicken Teriyaki Php49"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        />
+
+    <TextView
+        android:id="@+id/food_price2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@+id/food_name2"
+        android:text="Pan-fried chicken fillet in teriyaki sauce served on steamed rice"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        />
+            </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
